@@ -7,8 +7,125 @@
       <h1>Your start-up is not like everyone else's.  </h1>
       <div class="dots"> &nbsp</div>
     </div>
+    <div class="legend-text">
+      Novotorium is a new concept in start-up engineering. We know that the resources you need to grow will be as unique as your idea. Whether you're ready for incubation or just getting started, we have space for you.
+    </div>
   </div>
+  <div class="container" >
+    <div class="section-title" >
+      <h2>OUR PROGRAMS </h2>
+    </div>
+    <div class="content" >
+      <div id="incubate" class="program-option selected-option">
+        <div class="arrow" id="incubate_arrow" ></div>
+        <%= link_to "Incubate", root_path %>
+        <p> Idea? Check. Proof of concept? Check. Product?<br>
+            Check. Revenue? Not so much. <%= link_to "// Apply", root_path %>
+        </p>
+      </div>
+      <script type="text/javascript" >
+          $('#incubate').mouseover(function() {
+            $('#accelerate').removeClass('selected-option');
+            $('#co-work').removeClass('selected-option');
+            $('#incubate').addClass('selected-option');
+            $('#accelerate_arrow').hide();
+            $('#co-work_arrow').hide();
+            $('#incubate_arrow').show();
+            $('#accelerate-option').hide();
+            $('#co-work-option').hide();
+            $('#incubate-option').show();
+          });
+      </script>    
 
+      <div class="line-break" > &nbsp</div>
+      <div id="accelerate" class="program-option">
+        <div class="hidden arrow" id="accelerate_arrow" ></div>
+        <%= link_to "Accelerate", root_path %>
+        <p> You know you need some help, strategic or otherwise.<br>
+            Your're just not sure which or how much.  <%= link_to "// Apply", root_path %>
+        </p>
+      </div>
+      <script type="text/javascript" >
+          $('#accelerate').mouseover(function() {
+            $('#incubate').removeClass('selected-option');
+            $('#co-work').removeClass('selected-option');
+            $('#accelerate').addClass('selected-option');
+            $('#co-work_arrow').hide();
+            $('#incubate_arrow').hide();
+            $('#accelerate_arrow').show();
+            $('#incubate-option').hide();
+            $('#co-work-option').hide();
+            $('#accelerate-option').show();
+          });
+      </script>    
+      <div class="line-break" > &nbsp</div>
+      <div id="co-work" class="program-option">
+        <div class="hidden arrow" id="co-work_arrow" ></div>
+        <%= link_to "Co-work", root_path %>
+        <p> What you really need is a change of scenery and a<br>
+            little commraderie with people who get it.<%= link_to "// Register", root_path %>
+        </p>
+      </div>
+      <script type="text/javascript" >
+          $('#co-work').mouseover(function() {
+            $('#incubate').removeClass('selected-option');
+            $('#accelerate').removeClass('selected-option');
+            $('#co-work').addClass('selected-option');
+            $('#incubate_arrow').hide();
+            $('#accelerate_arrow').hide();
+            $('#co-work_arrow').show();
+            $('#accelerate-option').hide();
+            $('#incubate-option').hide();
+            $('#co-work-option').show();
+          });
+      </script>    
+    </div>
+
+  </div>
+  <div class="container-separator" >&nbsp
+  </div>
+  <div id="incubate-option" class="container option-explanation" >
+    <%= image_tag 'incubate_image.png' %>
+    
+    <div class="title-container">
+        <%= link_to "Apply Now >", root_path, :class => "orange-button float_right" %>
+      <div class="title" >Incubate
+      </div>
+    </div>
+      <div class="dots"> &nbsp</div>
+      <p class="statement"> <span class="blue">WHAT</span> The whole package: workspace, experts, and capital.</p>
+      <p class="statement"> <span class="blue">WHEN</span> Company-specific. There are no rolling program dates.</p>
+      <p class="statement"> <span class="blue">HOW</span> This program is free, but does require application.</p>
+      <p class="statement"> Incubation is the entire soup-to-nuts program offered at novotorium. There are no application deadlines or fixed start/end dates. Each company accepted to this program receives.. <%= link_to "// Program Details", root_path %></p>
+  </div>
+  <div id="accelerate-option" class="hidden container option-explanation" >
+    <%= image_tag 'incubate_image.png' %>
+    
+    <div class="title-container">
+        <%= link_to "Apply Now >", root_path, :class => "orange-button float_right" %>
+      <div class="title" >Accelerate
+      </div>
+    </div>
+      <div class="dots"> &nbsp</div>
+      <p class="statement"> <span class="blue">WHAT</span> The whole package: workspace, experts, and capital.</p>
+      <p class="statement"> <span class="blue">WHEN</span> Company-specific. There are no rolling program dates.</p>
+      <p class="statement"> <span class="blue">HOW</span> This program is free, but does require application.</p>
+      <p class="statement"> Incubation is the entire soup-to-nuts program offered at novotorium. There are no application deadlines or fixed start/end dates. Each company accepted to this program receives.. <%= link_to "// Program Details", root_path %></p>
+  </div>
+  <div id="co-work-option" class="hidden container option-explanation" >
+    <%= image_tag 'incubate_image.png' %>
+    
+    <div class="title-container">
+        <%= link_to "Apply Now >", root_path, :class => "orange-button float_right" %>
+      <div class="title" >Co-work
+      </div>
+    </div>
+      <div class="dots"> &nbsp</div>
+      <p class="statement"> <span class="blue">WHAT</span> The whole package: workspace, experts, and capital.</p>
+      <p class="statement"> <span class="blue">WHEN</span> Company-specific. There are no rolling program dates.</p>
+      <p class="statement"> <span class="blue">HOW</span> This program is free, but does require application.</p>
+      <p class="statement"> Incubation is the entire soup-to-nuts program offered at novotorium. There are no application deadlines or fixed start/end dates. Each company accepted to this program receives.. <%= link_to "// Program Details", root_path %></p>
+  </div>
 </div>
 
 
