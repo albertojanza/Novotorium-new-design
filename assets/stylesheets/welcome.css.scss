@@ -55,7 +55,7 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
 #sndhome .option-explanation p.statement span.blue{font:14px  futura;color:#15214b;}
 
 
-/* Prgrams page*/
+/* Programs page*/
 
 #sndprograms .program{float:left;width:476px;margin-bottom:16px;}
 #sndprograms .program-separator{float:left;width:8px;}
@@ -71,8 +71,27 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
 #sndprograms .dots{  background-image: url("server/wp-content/themes/simplicity/images/dot.png"); width:397px; background-repeat:repeat-x; margin: 10px auto; } 
 #sndprograms .legend{font:24px American Typewriter ;color:white;text-align:center;}
 #sndprograms .legend span{font:14px futura,arial;color:#99b7e0;}
-#sndprograms{}
-#sndprograms{}
-#sndprograms{}
-#sndprograms{}
-#sndprograms{}
+
+/* People page*/
+#sndpeople .section-title{background-image: url("server/wp-content/themes/simplicity/images/background-pattern.png");border-radius: 3px;padding:10px;margin-bottom:2px;}
+#sndpeople .section-title h2 {  margin:0px;text-align:center; font:36px American Typewriter ;color:#4770aa; }
+#sndpeople .content{border-radius: 3px;background-color:white;font:normal 14px Arial;color:#636464;}
+#sndpeople .content .person{float:left;width:220px;margin:10px;}
+#sndpeople img{float:left;}
+#sndpeople .media_contact{margin-left:180px;}
+#sndpeople .media_contact .media_facebook{display:block; background-image: url("server/wp-content/themes/simplicity/images/sprite.png");width: 22px; height:22px; background-position: -4px -209px;}
+#sndpeople .media_contact .media_facebook:hover{background-position: -4px -182px;}
+#sndpeople .media_contact .media_twitter{display:block; background-image: url("server/wp-content/themes/simplicity/images/sprite.png");width: 22px; height:22px; background-position: -37px -209px;}
+#sndpeople .media_contact .media_twitter:hover{background-position: -37px -182px;}
+#sndpeople .media_contact .media_flickr{display:block; background-image: url("server/wp-content/themes/simplicity/images/sprite.png");width: 22px; height:22px; background-position: -71px -209px;}
+#sndpeople .media_contact .media_flickr:hover{background-position: -71px -182px;}
+#sndpeople .media_contact .media_linkedin{display:block; background-image: url("server/wp-content/themes/simplicity/images/sprite.png");width: 22px; height:22px; background-position: -107px -209px;}
+#sndpeople .media_contact .media_linkedin:hover{background-position: -107px -182px;}
+#sndpeople .media_contact .media_google{display:block; background-image: url("server/wp-content/themes/simplicity/images/sprite.png");width: 22px; height:22px; background-position: -143px -209px;}
+#sndpeople .media_contact .media_google:hover{background-position: -143px -182px;}
+#sndpeople .media_contact .media_blog{display:block; background-image: url("server/wp-content/themes/simplicity/images/sprite.png");width: 22px; height:22px; background-position: -179px -209px;}
+#sndpeople .media_contact .media_blog:hover{background-position: -179px -182px;}
+
+#sndpeople{}
+#sndpeople{}
+#sndpeople{}
