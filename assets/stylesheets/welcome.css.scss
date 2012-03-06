@@ -2,12 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 body  { background-color:#15214b;font:normal 100% helvetica,arial,clean,sans-serif; color:black;margin:0; }
 
 .wrapper{width:960px; margin: 0px auto; }
+
+
+/* Home page*/
 .float_left{float:left}
 .float_right{float:right}
 .hidden {display:none;}
+.cleaner{clear:both;}
 #sndhome .container a.orange-button:hover{
  background: -moz-linear-gradient(#cd5d28,#faac2b) repeat scroll 0 0 transparent;
 background: -webkit-linear-gradient(#cd5d28,#faac2b);
@@ -15,7 +20,6 @@ background: -webkit-linear-gradient(#cd5d28,#faac2b);
   background: linear-gradient(#cd5d28,#faac2b);
 }
 
-#sndhome .legend{color:white;}
 #sndhome .legend{color:white;}
 #sndhome .legend-title {margin-bottom:3px;}
 #sndhome .legend-title h1{color:white;text-align:center; font:normal 100% American Typewriter;font-size:22px;margin:5px 0 0px 0;}
@@ -49,19 +53,26 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
 #sndhome .option-explanation .dots{  background-image: url("server/wp-content/themes/simplicity/images/dot.png"); width:457px; background-repeat:repeat-x; margin: 0px auto; } 
 #sndhome .option-explanation p.statement{ margin:8px 0px;font:14px  arial;}
 #sndhome .option-explanation p.statement span.blue{font:14px  futura;color:#15214b;}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
-#sndhome {}
+
+
+/* Prgrams page*/
+
+#sndprograms .program{float:left;width:476px;margin-bottom:16px;}
+#sndprograms .program-separator{float:left;width:8px;}
+#sndprograms .section-title{background-image: url("server/wp-content/themes/simplicity/images/background-pattern.png");border-radius: 3px;padding:10px;margin-bottom:2px;}
+#sndprograms .section-title h2 {  margin:0px;text-align:center;}
+#sndprograms .section-title h2 a{ text-decoration:none;font:36px American Typewriter ;color:#4770aa; }
+#sndprograms .section-title h2 a:hover{ color:#f7941d; }
+#sndprograms .content{padding:16px;border-radius: 3px;background-color:white;font:normal 14px Arial;color:#636464;}
+#sndprograms .content img{float:right;}
+#sndprograms .content .text{margin-right:60px;}
+#sndprograms .content .text a{color:#f7941d;text-decoration:none;}
+
+#sndprograms .dots{  background-image: url("server/wp-content/themes/simplicity/images/dot.png"); width:397px; background-repeat:repeat-x; margin: 10px auto; } 
+#sndprograms .legend{font:24px American Typewriter ;color:white;text-align:center;}
+#sndprograms .legend span{font:14px futura,arial;color:#99b7e0;}
+#sndprograms{}
+#sndprograms{}
+#sndprograms{}
+#sndprograms{}
+#sndprograms{}
