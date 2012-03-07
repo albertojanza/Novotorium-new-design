@@ -13,7 +13,7 @@ body  { background-color:#15214b;font:normal 100% helvetica,arial,clean,sans-ser
 .float_right{float:right}
 .hidden {display:none;}
 .cleaner{clear:both;}
-#snddesign .container a.orange-button:hover{
+#snddesign a.orange-button:hover{
  background: -moz-linear-gradient(#cd5d28,#faac2b) repeat scroll 0 0 transparent;
 background: -webkit-linear-gradient(#cd5d28,#faac2b);
 -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#cd5d28',endColorstr='#faac2b')";
@@ -27,7 +27,7 @@ background: -webkit-linear-gradient(#cd5d28,#faac2b);
 #snddesign .legend .legend-text{text-align:center;font-size:18px;font:normal 100% arial;}
 #snddesign .container{float:left; width:455px;margin:16px 0px 0px 0px;color:white;}
 #snddesign .container-separator{float:left;width:8px;}
-#snddesign .container .arrow{float:right;background-image: url("server/wp-content/themes/simplicity/images/sprite.png");width: 74px; height:73px; background-position: -3px -78px;}
+#snddesign .arrow{float:right;background-image: url("server/wp-content/themes/simplicity/images/sprite.png");width: 74px; height:73px; background-position: -3px -78px;}
 
 
 
@@ -44,7 +44,7 @@ background: -webkit-linear-gradient(#cd5d28,#faac2b);
 #snddesign .option-explanation .title-container{padding:0 5px;}
 #snddesign .option-explanation .title{font-size:36px;font:normal 36px American Typewriter;}
 
-#snddesign  .option-explanation a.orange-button{color:white;text-decoration:none;
+#snddesign   a.orange-button{color:white;text-decoration:none;
  background: -moz-linear-gradient(#faac2b, #cd5d28) repeat scroll 0 0 transparent;
 background: -webkit-linear-gradient(#faac2b,#cd5d28);
 -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#faac2b',endColorstr='#cd5d28')";
@@ -66,7 +66,7 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
 #snddesign .content{padding:16px;border-radius: 3px;background-color:white;font:normal 14px Arial;color:#636464;}
 #snddesign .content img{float:right;}
 #snddesign .content .text{margin-right:60px;}
-#snddesign .content .text a{color:#f7941d;text-decoration:none;}
+#snddesign .content .text a{color:#f7941d;text-decoration:none;font:14px American Typewriter ;}
 
 #snddesign .dots{  background-image: url("server/wp-content/themes/simplicity/images/dot.png"); width:397px; background-repeat:repeat-x; margin: 10px auto; } 
 #snddesign .legend{font:24px American Typewriter ;color:white;text-align:center;}
@@ -94,4 +94,10 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
 #snddesign .person .name{padding-top:5px;font:20px American Typewriter ;color:#636363;}
 #snddesign .person .role{font:15px American Typewriter ;color:#636363;}
 #snddesign .person .role a{font:13px American Typewriter ;color:#f7941d;}
-
+#snddesign .content h3{color: #636464;font:20px American Typewriter ;margin:0;}
+#snddesign .content .class-time{color: #c7c6c6;padding-top:3px;font:13px futura;margin:0;}
+#snddesign .content .explanation{ margin-right:150px;}
+#snddesign .content .class-explanation{ margin-top:10px;}
+#snddesign .content .class-explanation a{color:#f7941d;text-decoration:none;font:14px American Typewriter ;}
+#snddesign .content .class-dots{margin:10px 0;  background-image: url("server/wp-content/themes/simplicity/images/dot.png"); width:397px; background-repeat:repeat-x; } 
+#snddesign .arrow_text{color:#18214a;font:20px futura;margin:0;float:right;padding-top:23px;padding-right:5px;}
