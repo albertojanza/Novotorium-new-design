@@ -30,7 +30,7 @@ background: -webkit-linear-gradient(#cd5d28,#faac2b);
 
 
 
-#snddesign .container a{line-height:36px;text-decoration:none;color:#99b7e0;font:36px American Typewriter;}
+#snddesign .container a.title{line-height:36px;text-decoration:none;color:#99b7e0;font:36px American Typewriter;}
 #snddesign .container .content{margin:20px 6px 20px 6px;}
 #snddesign .container .selected-option a{color:#f7941d;}
 #snddesign .container p {font:14px Arial;margin-top:10px;margin-bottom:0;}
@@ -50,7 +50,7 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
   background: linear-gradient(#faac2b,#cd5d28);font-size:14px;font:normal 100% arial;padding:7px 15px;border-radius: 10px;}
 
 #snddesign .option-explanation .dots{  background-image: url("server/wp-content/uploads/2011/10/dot.png"); width:457px; background-repeat:repeat-x; margin: 0px auto; } 
-#snddesign .option-explanation p.statement{ margin:8px 0px;font:14px  arial;}
+#snddesign .option-explanation p.statement{ margin:8px 0px;font:14px  arial;color:white;}
 #snddesign .option-explanation p.statement span.blue{font:14px  futura;color:#15214b;}
 
 
