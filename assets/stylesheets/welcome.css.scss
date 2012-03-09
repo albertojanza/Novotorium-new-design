@@ -100,3 +100,29 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
 #snddesign .content .class-explanation a{color:#f7941d;text-decoration:none;font:14px American Typewriter ;}
 #snddesign .content .class-dots{margin:10px 0;  background-image: url("server/wp-content/uploads/2011/10/dot.png"); width:397px; background-repeat:repeat-x; } 
 #snddesign .arrow_text{color:#18214a;font:20px futura;margin:0;float:right;padding-top:23px;padding-right:5px;}
+/* Modal window */
+/* Z-index of #mask must lower than #boxes .window */
+.modal-wrapper {display:none; height: 100%; position: absolute; width: 100%; z-index: 9999;right:0;top:0;}/* background: transparent;}*/
+  /* the position fixed is necessary to avoid areas without modal when the user does scroll */
+.modal-screen { background-color:white;  background-color: rgba(0, 0, 0, .2); height: 100%; position: fixed; width: 100%;}
+.modal-content {
+  background-color: white;
+  position: relative;
+  margin: 100px auto 0;
+  padding:14px;
+  border-color: #969696;
+  border-width: 3px;
+  border-style: solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.modal-template{
+  width: 430px;
+}
+
+
+

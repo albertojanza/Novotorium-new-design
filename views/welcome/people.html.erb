@@ -1,5 +1,10 @@
 
+
+
+
+
 <div class="wrapper" >
+
 
 <div id="snddesign">
 
@@ -10,6 +15,15 @@
 
     <div class="content" >
       <div class="person" >
+        <div class="modal-wrapper" id="mike-bio" >
+            <div class="modal-screen">
+                <div class="modal-content modal-template">
+                    <div class="close-icon"><%= link_to_function content_tag(:span,''), "jQuery('#modal-display').hide();" %></div> 
+                  asdfasdf
+                </div>
+            </div>
+        </div>
+
 
           <img src="/assets/server/wp-content/uploads/2011/10/people_mike.png" alt="Incubate_image">
           <div class="media_contact" >
@@ -25,7 +39,8 @@
           Mike Krupit
         </div>
         <div class="role" >
-          Role <a  href="/">Bio</a>
+          Role 
+<%= link_to_function 'Bio', "jQuery('#mike-bio').show();" %>
         </div>
       </div>
 
