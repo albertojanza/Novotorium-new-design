@@ -125,4 +125,31 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
 }
 
 
+/*WooButton*/
+a.woo-sc-button {
+margin-bottom: 3px;
+}
+
+.mywidgets-container {
+    float:left;
+}
+.small-arrow{float:left;background-image: url("server/wp-content/uploads/2011/10/sprite.png");width: 49px; height:34px; background-position: -583px -30px;}
+
+.mywidgets-link a{font:18px futura,arial;text-decoration:none;color:#f7941e;}
+
+.mywidgets-link{
+    float:left;
+    margin-right:10px;
+    margin-top:8px;
+}
+
+
+.mywidgets ul{
+    padding-left:16px;
+    padding-right:16px; 
+    background-color:white;
+    height:158px;
+    border-radius: 3px;
+
+}
 
