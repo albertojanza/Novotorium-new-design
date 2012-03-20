@@ -110,9 +110,6 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
   position: relative;
   margin: 100px auto 0;
   padding:14px;
-  border-color: #969696;
-  border-width: 3px;
-  border-style: solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
@@ -123,7 +120,31 @@ background: -webkit-linear-gradient(#faac2b,#cd5d28);
 .modal-template{
   width: 430px;
 }
+div.close-icon{
+    top: 2px;
+    right: 10px;
+    position: absolute;
+    
+}
 
+div.close-icon a {
+    text-decoration:none;
+    height: 35px;
+    width: 193px;
+ color: #636363;
+}
+
+div.bio-text{
+ color: #636363;
+    font: 14px Arial;
+    padding-top: 5px;
+}
+
+div.bio-title{
+ color: #636363;
+    font: 20px American Typewriter;
+    padding-top: 5px;
+}
 
 /*WooButton*/
 a.woo-sc-button {
